@@ -1,0 +1,15 @@
+list=[2,9,6,8,2,3,4,5]
+list.sort()
+print(list)
+list.reverse()
+list.append(18)
+print(list)
+print(list[-2])
+key=input("enter key")
+count=0
+for i in range(len(list)):
+    if (int(key)==list[i]):
+        count=count+1
+        print(count)
+    else:
+        print("not found")
